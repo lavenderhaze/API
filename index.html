@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Reproductor de Vídeo</title>
+  <style>
+    body {
+      background-color: pink;
+      font-family: "Arial", sans-serif;
+    }
+    h1 {
+      text-align: center;
+      font-family: "Comic Sans MS", cursive;
+      color: #FF4081;
+    }
+    #video {
+      width: 100%;
+    }
+    #controls {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 10px;
+    }
+    .button {
+      background-color: pink;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Reproductor de Vídeo</h1>
+  <input type="file" id="file-input">
+  <video id="video" controls></video>
+  <div id="controls">
+    <button class="button" id="play-button">Play</button>
+    <button class="button" id="pause-button">Pause</button>
+    <button class="button" id="volume-up-button">Volume Up</button>
+    <button class="button" id="volume-down-button">Volume Down</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
