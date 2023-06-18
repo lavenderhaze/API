@@ -1,0 +1,27 @@
+body {
+    background-color: pink;
+  }
+  
+  h1 {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  .controls-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: white;
+    color: pink;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+  }
